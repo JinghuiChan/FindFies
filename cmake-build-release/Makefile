@@ -38,10 +38,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Soft\CLion\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = D:\Soft\CMake\install-315\bin\cmake.exe
 
 # The command to remove a file.
-RM = "D:\Soft\CLion\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = D:\Soft\CMake\install-315\bin\cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -50,15 +50,15 @@ EQUALS = =
 CMAKE_SOURCE_DIR = D:\Document\ClionProject\FindFies
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Document\ClionProject\FindFies\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Document\ClionProject\FindFies\cmake-build-release
 
 #=============================================================================
 # Targets provided globally by CMake.
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\Soft\CLion\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	D:\Soft\CMake\install-315\bin\cmake-gui.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\Soft\CLion\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	D:\Soft\CMake\install-315\bin\cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Document\ClionProject\FindFies\cmake-build-debug\CMakeFiles D:\Document\ClionProject\FindFies\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Document\ClionProject\FindFies\cmake-build-release\CMakeFiles D:\Document\ClionProject\FindFies\cmake-build-release\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Document\ClionProject\FindFies\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Document\ClionProject\FindFies\cmake-build-release\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,32 +122,32 @@ FindFies/fast:
 	$(MAKE) -f CMakeFiles\FindFies.dir\build.make CMakeFiles/FindFies.dir/build
 .PHONY : FindFies/fast
 
-main.obj: main.cpp.obj
+findfly.obj: findfly.cpp.obj
 
-.PHONY : main.obj
+.PHONY : findfly.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\FindFies.dir\build.make CMakeFiles/FindFies.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+findfly.cpp.obj:
+	$(MAKE) -f CMakeFiles\FindFies.dir\build.make CMakeFiles/FindFies.dir/findfly.cpp.obj
+.PHONY : findfly.cpp.obj
 
-main.i: main.cpp.i
+findfly.i: findfly.cpp.i
 
-.PHONY : main.i
+.PHONY : findfly.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\FindFies.dir\build.make CMakeFiles/FindFies.dir/main.cpp.i
-.PHONY : main.cpp.i
+findfly.cpp.i:
+	$(MAKE) -f CMakeFiles\FindFies.dir\build.make CMakeFiles/FindFies.dir/findfly.cpp.i
+.PHONY : findfly.cpp.i
 
-main.s: main.cpp.s
+findfly.s: findfly.cpp.s
 
-.PHONY : main.s
+.PHONY : findfly.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\FindFies.dir\build.make CMakeFiles/FindFies.dir/main.cpp.s
-.PHONY : main.cpp.s
+findfly.cpp.s:
+	$(MAKE) -f CMakeFiles\FindFies.dir\build.make CMakeFiles/FindFies.dir/findfly.cpp.s
+.PHONY : findfly.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... FindFies
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... findfly.obj
+	@echo ... findfly.i
+	@echo ... findfly.s
 .PHONY : help
 
 

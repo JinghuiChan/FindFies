@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="FindFies"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\Soft\;CMake Files\..\..\..\Soft\Opencv\;CMake Files\..\..\..\Soft\Opencv\opencv\;CMake Files\..\..\..\Soft\Opencv\opencv\sources\;CMake Files\..\..\..\Soft\Opencv\opencv\sources\mingw-build\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Document/ClionProject/FindFies/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Soft/mingw-w64/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Document/ClionProject/FindFies/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Soft/mingw-w64/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Document/ClionProject/FindFies/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Soft/mingw-w64/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Document/ClionProject/FindFies/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Soft/mingw-w64/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Document/ClionProject/FindFies/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FindFies">
+				<Option output="D:/Document/ClionProject/FindFies/cmake-build-release/FindFies.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Document/ClionProject/FindFies/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Soft/Opencv/opencv/sources/mingw-build"/>
+					<Add directory="D:/Soft/Opencv/opencv/sources/include"/>
+					<Add directory="D:/Soft/Opencv/opencv/sources/include/opencv"/>
+					<Add directory="D:/Soft/Opencv/opencv/sources/modules/core/include"/>
+					<Add directory="D:/Soft/Opencv/opencv/sources/modules/flann/include"/>
+					<Add directory="D:/Soft/Opencv/opencv/sources/modules/imgproc/include"/>
+					<Add directory="D:/Soft/Opencv/opencv/sources/modules/ml/include"/>
+					<Add directory="D:/Soft/Opencv/opencv/sources/modules/photo/include"/>
+					<Add directory="D:/Soft/Opencv/opencv/sources/modules/video/include"/>
+					<Add directory="D:/Soft/Opencv/opencv/sources/modules/dnn/include"/>
+					<Add directory="D:/Soft/Opencv/opencv/sources/modules/features2d/include"/>
+					<Add directory="D:/Soft/Opencv/opencv/sources/modules/imgcodecs/include"/>
+					<Add directory="D:/Soft/Opencv/opencv/sources/modules/shape/include"/>
+					<Add directory="D:/Soft/Opencv/opencv/sources/modules/videoio/include"/>
+					<Add directory="D:/Soft/Opencv/opencv/sources/modules/calib3d/include"/>
+					<Add directory="D:/Soft/Opencv/opencv/sources/modules/highgui/include"/>
+					<Add directory="D:/Soft/Opencv/opencv/sources/modules/objdetect/include"/>
+					<Add directory="D:/Soft/Opencv/opencv/sources/modules/stitching/include"/>
+					<Add directory="D:/Soft/Opencv/opencv/sources/modules/superres/include"/>
+					<Add directory="D:/Soft/Opencv/opencv/sources/modules/ts/include"/>
+					<Add directory="D:/Soft/Opencv/opencv/sources/modules/videostab/include"/>
+					<Add directory="D:/Soft/mingw-w64/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Soft/mingw-w64/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Soft/mingw-w64/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Soft/mingw-w64/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Soft/mingw-w64/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Soft/mingw-w64/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Soft/mingw-w64/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Document/ClionProject/FindFies/cmake-build-release/Makefile&quot;  VERBOSE=1 FindFies"/>
+					<CompileFile command="D:/Soft/mingw-w64/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Document/ClionProject/FindFies/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Soft/mingw-w64/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Document/ClionProject/FindFies/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Soft/mingw-w64/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Document/ClionProject/FindFies/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FindFies/fast">
+				<Option output="D:/Document/ClionProject/FindFies/cmake-build-release/FindFies.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Document/ClionProject/FindFies/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Soft/Opencv/opencv/sources/mingw-build"/>
+					<Add directory="D:/Soft/Opencv/opencv/sources/include"/>
+					<Add directory="D:/Soft/Opencv/opencv/sources/include/opencv"/>
+					<Add directory="D:/Soft/Opencv/opencv/sources/modules/core/include"/>
+					<Add directory="D:/Soft/Opencv/opencv/sources/modules/flann/include"/>
+					<Add directory="D:/Soft/Opencv/opencv/sources/modules/imgproc/include"/>
+					<Add directory="D:/Soft/Opencv/opencv/sources/modules/ml/include"/>
+					<Add directory="D:/Soft/Opencv/opencv/sources/modules/photo/include"/>
+					<Add directory="D:/Soft/Opencv/opencv/sources/modules/video/include"/>
+					<Add directory="D:/Soft/Opencv/opencv/sources/modules/dnn/include"/>
+					<Add directory="D:/Soft/Opencv/opencv/sources/modules/features2d/include"/>
+					<Add directory="D:/Soft/Opencv/opencv/sources/modules/imgcodecs/include"/>
+					<Add directory="D:/Soft/Opencv/opencv/sources/modules/shape/include"/>
+					<Add directory="D:/Soft/Opencv/opencv/sources/modules/videoio/include"/>
+					<Add directory="D:/Soft/Opencv/opencv/sources/modules/calib3d/include"/>
+					<Add directory="D:/Soft/Opencv/opencv/sources/modules/highgui/include"/>
+					<Add directory="D:/Soft/Opencv/opencv/sources/modules/objdetect/include"/>
+					<Add directory="D:/Soft/Opencv/opencv/sources/modules/stitching/include"/>
+					<Add directory="D:/Soft/Opencv/opencv/sources/modules/superres/include"/>
+					<Add directory="D:/Soft/Opencv/opencv/sources/modules/ts/include"/>
+					<Add directory="D:/Soft/Opencv/opencv/sources/modules/videostab/include"/>
+					<Add directory="D:/Soft/mingw-w64/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Soft/mingw-w64/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Soft/mingw-w64/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Soft/mingw-w64/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Soft/mingw-w64/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Soft/mingw-w64/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Soft/mingw-w64/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Document/ClionProject/FindFies/cmake-build-release/Makefile&quot;  VERBOSE=1 FindFies/fast"/>
+					<CompileFile command="D:/Soft/mingw-w64/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Document/ClionProject/FindFies/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Soft/mingw-w64/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Document/ClionProject/FindFies/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Soft/mingw-w64/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Document/ClionProject/FindFies/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Document/ClionProject/FindFies/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Soft/mingw-w64/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Document/ClionProject/FindFies/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Soft/mingw-w64/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Document/ClionProject/FindFies/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Soft/mingw-w64/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Document/ClionProject/FindFies/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Soft/mingw-w64/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Document/ClionProject/FindFies/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Document/ClionProject/FindFies/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Soft/mingw-w64/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Document/ClionProject/FindFies/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Soft/mingw-w64/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Document/ClionProject/FindFies/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Soft/mingw-w64/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Document/ClionProject/FindFies/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Soft/mingw-w64/install/mingw64/bin/mingw32-make.exe -f &quot;D:/Document/ClionProject/FindFies/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Document/ClionProject/FindFies/findfly.cpp">
+			<Option target="FindFies"/>
+		</Unit>
+		<Unit filename="D:/Document/ClionProject/FindFies/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/Document/ClionProject/FindFies/../../../Soft/Opencv/opencv/sources/mingw-build/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Soft\Opencv\opencv\sources\mingw-build\"/>
+		</Unit>
+		<Unit filename="D:/Document/ClionProject/FindFies/../../../Soft/Opencv/opencv/sources/mingw-build/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Soft\Opencv\opencv\sources\mingw-build\"/>
+		</Unit>
+		<Unit filename="D:/Document/ClionProject/FindFies/../../../Soft/Opencv/opencv/sources/mingw-build/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Soft\Opencv\opencv\sources\mingw-build\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
