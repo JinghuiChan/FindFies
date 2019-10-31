@@ -1,0 +1,4 @@
+ToolSet: 5.2 (local)@D:\Soft\mingw-w64\install
+Options: 
+
+Options:
