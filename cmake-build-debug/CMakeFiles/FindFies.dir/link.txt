@@ -1,3 +1,0 @@
-"D:\Soft\CLion\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\FindFies.dir/objects.a
-D:\Soft\mingw-w64\install\bin\ar.exe cr CMakeFiles\FindFies.dir/objects.a @CMakeFiles\FindFies.dir\objects1.rsp
-D:\Soft\mingw-w64\install\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\FindFies.dir/objects.a -Wl,--no-whole-archive  -o FindFies.exe -Wl,--out-implib,libFindFies.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\FindFies.dir\linklibs.rsp

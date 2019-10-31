@@ -1,4 +1,4 @@
-ToolSet: 5.2 (local)@D:\Soft\mingw-w64\install
+ToolSet: w64 6.0 (local)@D:\Soft\mingw-w64\install\mingw64
 Options: 
 
 Options:

@@ -3,4 +3,7 @@ project(FindFies)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(FindFies main.cpp)
+find_package(OpenCV REQUIRED)
+add_executable(FindFies findfly.cpp)
+
+target_link_libraries(FindFies ${OpenCV_LIBS})
